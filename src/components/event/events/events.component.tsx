@@ -14,5 +14,7 @@ export const Events: FunctionComponent = () => {
     }, [formSchema])
 
 
-    return <Table columns={columns} dataSource={dataSource} />
+    return (
+        columns.length ? <Table columns={columns} dataSource={dataSource} /> : <></>
+    )
 };

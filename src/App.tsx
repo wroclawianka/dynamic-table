@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Layout } from "antd";
-import { CreateEvent, Events, AddField } from "./components";
+import { CreateEvent, Events, AddField, RemoveField } from "./components";
 
 // tech debt: 
 // * create types and replace "any" type 
@@ -16,6 +16,7 @@ function App() {
         <Layout.Content style={{ width: "1300px", maxWidth: "100%", margin: "auto" }}>
           <CreateEvent />
           <AddField />
+          <RemoveField/>
           <Events />
         </Layout.Content>
       </Layout >

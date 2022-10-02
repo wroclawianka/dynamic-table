@@ -1,7 +1,7 @@
 import { Button, Form, Modal } from "antd"
 import { useForm } from "antd/lib/form/Form";
 import { useState } from "react";
-import { useAddField } from "../../../hooks/mutations/form-schema/addField";
+import { useAddField } from "../../../hooks/mutations/form-schema/add-field";
 import { findFormInputByType } from "../../../utils";
 
 export const AddField = () => {
@@ -48,16 +48,10 @@ export const AddField = () => {
                 {
                     "label": "Textarea",
                     "value": "textarea"
-                },
-                // {
-                //     "label": "Select",
-                //     "value": "select"
-                // }
+                }
             ]
         }
     ]
-
-
 
     return (
         <>
@@ -81,7 +75,6 @@ export const AddField = () => {
                     form={form}
                 >
                     {createNewFieldForm.map((i) => findFormInputByType(i))}
-
                 </Form>
             </Modal>
         </>

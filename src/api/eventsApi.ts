@@ -18,3 +18,7 @@ export const getFormSchema = () => (
 export const addFormField = (data) => (
     api.post('/form-schema', data).then(res => res.data)
 )
+
+export const removeFormField = (id) => (
+    api.delete(`/form-schema/${id}`).then(res => res.data)
+)
