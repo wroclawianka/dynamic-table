@@ -1,20 +1,44 @@
 {
   "events": [
     {
-      "id": "1",
+      "id": "6",
+      "title": "Chinese New Year",
+      "type": "generic",
+      "startDate": "2022-01-22",
+      "endDate": "2022-01-22",
+      "description": "Festival that celebrates the beginning of a new year on the traditional lunisolar and solar Chinese calendar"
+    },
+    {
+      "id": "2",
       "title": "Croissant Day",
       "type": "generic",
       "startDate": "2022-01-30",
       "endDate": "2022-01-30",
-      "description": "This is an event about the start of this year"
+      "description": "Recognizes a flaky pastry enjoyed at every meal"
     },
     {
-      "id": "2",
-      "title": "Holiday",
+      "id": "7",
+      "title": "Tomorrowland",
+      "type": "generic",
+      "startDate": "2022-07-15",
+      "endDate": "2022-07-31",
+      "description": "Belgian electronic dance music festival"
+    },
+    {
+      "id": "5",
+      "title": "Hanukkah",
       "type": "holiday",
-      "startDate": "2022-06-04",
-      "endDate": "2022-06-15",
-      "description": "My holidays"
+      "startDate": "2022-12-18",
+      "endDate": "2022-12-26",
+      "description": "Jewish festival commemorating the recovery of Jerusalem"
+    },
+    {
+      "id": "4",
+      "title": "Christmas Day",
+      "type": "holiday",
+      "startDate": "2022-12-25",
+      "endDate": "2022-12-25",
+      "description": "Annual commemoration of the birth of Jesus Christ"
     }
   ],
   "form-schema": [
