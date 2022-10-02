@@ -14,3 +14,7 @@ export const createEvent = (data) => (
 export const getFormSchema = () => (
     api.get('/form-schema').then(res => res.data)
 )
+
+export const addFormField = (data) => (
+    api.post('/form-schema', data).then(res => res.data)
+)
