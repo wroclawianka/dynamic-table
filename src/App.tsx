@@ -13,7 +13,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Layout style={{ height: "100vh", padding: '10px' }}>
-        <Layout.Content>
+        <Layout.Content style={{width: "1000px", maxWidth: "100%", margin: "auto"}}>
           <CreateEvent />
           <Events />
         </Layout.Content>
