@@ -38,10 +38,10 @@ export const CreateEvent = () => {
                 onClick={showModal}
                 style={{ marginBottom: '10px' }}
             >
-                Create Event
+                Add Row
             </Button>
             <Modal
-                title="Create Event"
+                title="Add Row"
                 visible={isModalVisible}
                 onOk={handleOk}
                 onCancel={handleCancel}>
