@@ -1,4 +1,4 @@
-# Vote for me App
+# Dynamic Table
    - :mega: web app with dynamic table. Add or remove your own fields and add new rows
    - :wrench: TypeScript, React, React-Query, Ant Design, Axios, concurrently
    - :date: July 2022
@@ -21,8 +21,12 @@ npm start
 
 To start web app only, run: 
 
-### `npm start:web`
+```
+npm start:web
+```
 
 To start web app only, run: 
 
-### `npm start:api`
+```
+npm start:api
+```
