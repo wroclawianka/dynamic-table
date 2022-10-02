@@ -1,5 +1,5 @@
 # Dynamic Table
-   - :mega: web app with dynamic table. Add or remove your own fields and add new rows
+   - :mega: web app with dynamic table. Add row and create or remove your own fields
    - :wrench: TypeScript, React, React-Query, Ant Design, Axios, concurrently
    - :date: July 2022
    
