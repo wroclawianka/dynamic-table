@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dynamic-table/static/css/main.6cdd5339.css",
+    "main.js": "/dynamic-table/static/js/main.9a5ddaa8.js",
+    "index.html": "/dynamic-table/index.html",
+    "main.6cdd5339.css.map": "/dynamic-table/static/css/main.6cdd5339.css.map",
+    "main.9a5ddaa8.js.map": "/dynamic-table/static/js/main.9a5ddaa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cdd5339.css",
+    "static/js/main.9a5ddaa8.js"
+  ]
+}
