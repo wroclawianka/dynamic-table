@@ -1,7 +1,7 @@
 # Vote for me App
    - :mega: web app with dynamic table. Add or remove your own fields and add new rows
    - :wrench: TypeScript, React, React-Query, Ant Design, Axios, concurrently
-   - :date: September 2022
+   - :date: July 2022
    
 <p align="center">
     <img width="800px" src="https://raw.githubusercontent.com/wroclawianka/dynamic-table/main/assets/dynamic-table.png"/>
