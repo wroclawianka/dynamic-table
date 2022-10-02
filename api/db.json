@@ -17,14 +17,6 @@
       "description": "Recognizes a flaky pastry enjoyed at every meal"
     },
     {
-      "id": "7",
-      "title": "Tomorrowland",
-      "type": "generic",
-      "startDate": "2022-07-15",
-      "endDate": "2022-07-31",
-      "description": "Belgian electronic dance music festival"
-    },
-    {
       "id": "5",
       "title": "Hanukkah",
       "type": "holiday",
@@ -43,11 +35,13 @@
   ],
   "form-schema": [
     {
+      "id": "1",
       "name": "title",
       "label": "Title",
       "component": "text"
     },
     {
+      "id": "2",
       "name": "type",
       "component": "select",
       "label": "Type",
@@ -63,6 +57,7 @@
       ]
     },
     {
+      "id": "3",
       "name": [
         "startDate",
         "endDate"
@@ -71,6 +66,7 @@
       "label": "Date"
     },
     {
+      "id": "4",
       "name": "description",
       "label": "Description",
       "component": "textarea"
